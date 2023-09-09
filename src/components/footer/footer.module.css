@@ -1,0 +1,47 @@
+.footer {
+  background: rgb(179, 177, 177);
+  color: black;
+  padding: 2rem;
+}
+
+.footercontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 120px;
+  height: 40px;
+}
+
+.links a {
+  color: brown;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.social img {
+  margin-left: 1rem;
+}
+
+.copyright {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .footercontainer {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 1rem;
+  }
+
+  .copyright {
+    margin-top: 1rem;
+  }
+}

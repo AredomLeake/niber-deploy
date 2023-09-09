@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.subcontainer {
+  display: flex;
+}
+
+.title {
+  font-size: 72px;
+  background: linear-gradient(to bottom, brown, #9a6c6c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  animation: move 3s infinite ease alternate;
+}
+.projectco {
+  display: flex;
+  max-width: 97%;
+  margin: auto;
+}
+.devco {
+  flex: 1;
+  margin-right: 20px;
+}
+.prog {
+  background: whitesmoke;
+  margin: 16px 0;
+  border-radius: 4px;
+  width: 100%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.programimg {
+  /* margin-right: 20px; */
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+.programimg .farming {
+  /* margin-right: 20px; */
+  height: 100%;
+  width: 100%;
+}
+.donimg {
+  /* margin-right: 20px; */
+  height: 100%;
+  width: 100%;
+}
+.humcon {
+  flex: 1;
+}
+.progra {
+  text-align: start;
+  display: flex;
+  width: 100%;
+  max-width: 97%;
+  margin: auto;
+}
+.linkdiv {
+  display: grid;
+  place-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
+.desc {
+  font-size: 24px;
+  font-weight: 300;
+}
