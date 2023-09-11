@@ -28,7 +28,7 @@ export default function Home() {
             Turning your Idea into Reality. We bring together the teams from the
             global tech industry.
           </p>
-          <Button url="/portfolio" text="See Our Works" />
+          <Button url="/portfolio" text="Donate" />
         </div>
         <div className={styles.item}>
           {/* <Image src={Hero} alt="" className={styles.img} /> */}
@@ -120,7 +120,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.linkdiv}>
-        <Button url="/portfolio" text="See Our Works" />
+        <Button url="/portfolio" text="Read more" />
       </div>
       <div>
         <h1>Humanitarian Programs</h1>
@@ -175,7 +175,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.linkdiv}>
-        <Button url="/portfolio" text="See Our Works" />
+        <Button url="/portfolio" text="Read more" />
       </div>
     </div>
   );
