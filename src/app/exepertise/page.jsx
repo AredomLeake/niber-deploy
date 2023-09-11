@@ -7,7 +7,7 @@ const Portfolio = () => {
     <div className={styles.container}>
       <h1 className={styles.selectTitle}>Choose Category to Contribute</h1>
       <div className={styles.items}>
-        <Link href="/portfolio/Humanitarian" className={styles.item}>
+        <Link href="/exepertise/expertiseData" className={styles.item}>
           <span className={styles.title}>Expertise</span>
         </Link>
         <Link href="/donate" className={styles.item}>

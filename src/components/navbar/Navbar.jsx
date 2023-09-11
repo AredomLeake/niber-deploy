@@ -30,7 +30,7 @@ const links = [
   },
   {
     id: 5,
-    title: "Donate",
+    title: "",
     url: "/donate",
   },
   {
@@ -40,7 +40,7 @@ const links = [
   },
   {
     id: 7,
-    title: "Dashboard",
+    title: "",
     url: "/dashboard",
   },
   {
