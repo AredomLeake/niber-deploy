@@ -61,7 +61,7 @@ const humanitarian = () => {
             providing scholarships, mentoring, skill development workshops,
             career counseling, and a resource center, we aim to create a
             supportive educational ecosystem that empowers individuals to
-            overcome obstacles and achieve their dreams. Together, let's build a
+            overcome obstacles and achieve their dreams. Together, lets build a
             brighter future for our community through education. Join us in our
             mission to empower minds and transform lives.
           </p>
