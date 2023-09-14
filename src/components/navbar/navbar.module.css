@@ -4,7 +4,8 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background: rgb(179, 177, 177);
+  background: rgb(230, 229, 229);
+  box-shadow: inset;
   position: fixed;
   top: 0;
   z-index: 100;
