@@ -6,6 +6,7 @@ import human1 from "/public/human1.png";
 import edu from "public/edu1.png";
 
 const humanitarian = () => {
+  /* eslint-disable react/no-unescaped-entities */
   return (
     <div className={styles.container}>
       <h1> Programs</h1>
