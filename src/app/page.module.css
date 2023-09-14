@@ -1,0 +1,198 @@
+.container {
+  max-width: 1400px;
+  gap: 20px;
+
+  max-width: 98%;
+  margin: auto;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.subcontainer {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("/thome.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  animation: move 3s infinite ease alternate;
+  height: 600px;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 50px;
+  background: linear-gradient(to bottom, red, rgb(241, 241, 142));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: justify;
+  margin-top: 150px;
+}
+.desc {
+  font-size: 25px;
+  margin: 10px;
+}
+.para {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.procontainer {
+  text-align: center;
+  font-weight: large;
+  margin: 20px;
+}
+
+/* .img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  animation: move 3s infinite ease alternate;
+} */
+
+.projectco {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+.devco {
+  flex: 1;
+  width: 50%;
+}
+.prog {
+  background: whitesmoke;
+  margin: 16px 0;
+  border-radius: 4px;
+
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.progc {
+  background: whitesmoke;
+}
+.farmimg {
+  width: 100%;
+  height: 100%;
+}
+.donimg {
+  height: 100%;
+  width: 100%;
+}
+.devtitle {
+  text-align: center;
+}
+.devdesc {
+  font-size: 17px;
+  line-height: 25px;
+  text-align: justify;
+  margin: 5px;
+}
+.devpro {
+  text-align: center;
+  margin: 20px;
+}
+
+.progra {
+  text-align: start;
+  display: flex;
+}
+.progra p {
+  text-align: center;
+}
+
+.linkdiv {
+  display: grid;
+  place-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.programingimg {
+  width: 100%;
+  height: 100%;
+}
+.img {
+  width: 318px;
+  height: 245px;
+}
+@media (max-width: 600px) {
+  .container {
+    max-width: 600px;
+
+    margin: auto;
+  }
+  .subcontainer {
+    height: 400px;
+  }
+  .item {
+    flex: 1;
+    display: flex;
+  }
+  .title {
+    font-size: 21px;
+    background: linear-gradient(to bottom, red, rgb(241, 241, 142));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: justify;
+    margin-top: 200px;
+  }
+  .desc {
+    font-size: 16px;
+    margin: 7px;
+  }
+  .para {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .projectco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .devco {
+    flex: 1;
+    width: 100%;
+  }
+
+  .progra {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+  }
+  .img {
+    width: 450px;
+    height: 292px;
+  }
+  .prog {
+    width: 452px;
+  }
+  .farmimg {
+    width: 450px;
+    height: 292px;
+  }
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
