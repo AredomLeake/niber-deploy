@@ -20,38 +20,41 @@ export default function Footer() {
         </div>
 
         <div className={styles.social}>
-          <a href="#">
+          <a href="https://www.youtube.com/@NiberFoundation">
             <Image
               src="/4.png"
-              width={15}
-              height={15}
+              width={25}
+              height={25}
               className={styles.icon}
-              alt="Lama Dev"
+              alt="youtube"
             />
           </a>
-          <a href="#">
+          <a href="https://twitter.com/NiberFoundation?t=EVaHrxbBUpKrEKte3DSfEQ&s=09">
             <Image
               src="/3.png"
-              width={15}
-              height={15}
+              width={25}
+              height={25}
               className={styles.icon}
-              alt="Lama Dev"
+              alt="twitter"
             />
           </a>
-          <a href="#">
+          <a href="https://t.me/Niber_Foundation">
             <Image
               src="/1.png"
-              width={15}
-              height={15}
+              width={25}
+              height={25}
               className={styles.icon}
-              alt="Lama Dev Facebook Account"
+              alt="Facebook"
             />
+          </a>
+
+          <a href="https://www.youtube.com/@NiberFoundation">
             <Image
               src="/2.png"
-              width={15}
-              height={15}
+              width={25}
+              height={25}
               className={styles.icon}
-              alt="Lama Dev Facebook Account"
+              alt="insta"
             />
           </a>
         </div>

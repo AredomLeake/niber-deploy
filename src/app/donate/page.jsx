@@ -35,6 +35,7 @@ export default function Donate() {
       </div>
 
       <div className={styles.input}>
+        <label className={styles.label}> Enter Donation Amount</label>
         <input
           type="number"
           value={donation}
@@ -45,7 +46,7 @@ export default function Donate() {
       <button className={styles.submitbutton} type="submit">
         Donate Now
       </button>
-      <h1>temporarly you can use this account no</h1>
+      <h1> Temporarly you can use this account number</h1>
       <h3>
         CBE: 1000559492225 <span className={styles.span}>Niber Foundation</span>{" "}
         <br />

@@ -119,7 +119,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.linkdiv}>
-        <Button url="/portfolio" text="See Our Works" />
+        <Button url="/programs/developmental" text="See Our Works" />
       </div>
       <div className={styles.devpro}>
         <h1>Humanitarian Programs</h1>
@@ -174,7 +174,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.linkdiv}>
-        <Button url="/portfolio" text="See Our Works" />
+        <Button url="/programs/humanitarian" text="See Our Works" />
       </div>
     </div>
   );

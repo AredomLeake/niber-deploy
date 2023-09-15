@@ -72,6 +72,16 @@ const Navbar = () => {
                   <Link href="/programs/developmental">Developmental</Link>
                 </div>
               </div>
+            ) : link.title === "Contribution" ? (
+              <div className={styles.programs}>
+                <Link href={link.url}>{link.title}</Link>
+
+                <div className={styles.cosubmenu}>
+                  <Link href="/donate">Donation</Link>
+                  <Link href="/Contribution/expertise">Expertise</Link>
+                  <Link href="/Contribution/inkind">Inkind</Link>
+                </div>
+              </div>
             ) : (
               <Link key={link.id} href={link.url} className={styles.link}>
                 {link.title}

@@ -32,7 +32,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: justify;
-  margin-top: 150px;
+  margin-top: 130px;
 }
 .desc {
   font-size: 25px;
@@ -142,7 +142,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: justify;
-    margin-top: 200px;
+    margin-top: 150px;
   }
   .desc {
     font-size: 16px;

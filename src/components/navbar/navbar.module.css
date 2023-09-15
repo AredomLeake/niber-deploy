@@ -19,11 +19,30 @@
 .programs:hover .submenu {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 5px;
+  border-radius: 5px;
   margin-top: 5px;
   line-height: 30px;
+  width: max-content;
+  background-color: whitesmoke;
+}
+.cosubmenu {
+  display: none;
+  position: absolute;
+}
+.programs:hover .cosubmenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  line-height: 30px;
+  text-align: center;
+  width: 100px;
   background-color: whitesmoke;
 }
 .logo {

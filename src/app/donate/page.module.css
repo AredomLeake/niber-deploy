@@ -2,9 +2,10 @@
 .form {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 60px;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
 }
 .amountbuttons button {
   background: brown;
@@ -18,14 +19,20 @@
 }
 
 .amountbuttons button:hover {
-  background: brown;
+  background: rgb(156, 42, 42);
 }
 
 .input input {
-  border: 1px solid #eee;
+  border: 1px solid brown;
   border-radius: 4px;
   padding: 12px;
   font-size: 16px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
 }
 
 .submitbutton {
@@ -43,4 +50,43 @@
 }
 .span {
   color: brown;
+}
+.label {
+  color: brown;
+}
+@media (max-width: 600px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  .amountbuttons button {
+    background: brown;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 5px;
+    width: max-content;
+  }
+  .input input {
+    border: 1px solid brown;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 16px;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .form h1 {
+    text-align: center;
+    font-size: 31px;
+  }
 }

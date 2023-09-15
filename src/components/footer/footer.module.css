@@ -55,4 +55,11 @@
   .copyright {
     margin-top: 1rem;
   }
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+  .social img {
+    margin-left: 0.7rem;
+  }
 }

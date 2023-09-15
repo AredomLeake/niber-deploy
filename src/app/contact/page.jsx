@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./page.module.css";
-import Image from "next/image";
+//import Image from "next/image";
 import Button from "@/components/Button/Button";
 
 /* eslint-disable react/no-unescaped-entities */
@@ -17,14 +17,14 @@ const Contact = () => {
 
       <p>Can&#39;t wait to hear from you!</p>
       <div className={styles.content}>
-        <div className={styles.imgContainer}>
+        {/* <div className={styles.imgContainer}>
           <Image
             src="/contact.png"
             alt=""
             fill={true}
             className={styles.image}
           />
-        </div>
+        </div> */}
         <form className={styles.form}>
           <input type="text" placeholder="name" className={styles.input} />
           <input type="text" placeholder="email" className={styles.input} />
