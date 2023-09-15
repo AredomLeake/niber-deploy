@@ -50,7 +50,7 @@ const About = () => {
             <br />
           </p>
         </div>
-        <div>
+        <div className={styles.imagecon}>
           <Image
             src="/discus1.png"
             width={1400}
@@ -90,7 +90,7 @@ const About = () => {
             With heartfelt warmth and unwavering empathy, NIBER Community{" "}
           </p>
         </div>
-        <div>
+        <div className={styles.imagecon}>
           <Image
             src="/human1.png"
             width={1400}
