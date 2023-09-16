@@ -14,7 +14,7 @@ export default function Footer() {
           <a href="/blog">Blog</a>
           <a href="/donate">Donate</a>
           <a href="/about">About</a>
-          <a href="/contribution">Contribution</a>
+          <a href="/programs/humanitarian">Contribution</a>
         </div>
 
         <div className={styles.social}>
