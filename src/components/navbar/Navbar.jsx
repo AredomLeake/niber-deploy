@@ -2,10 +2,12 @@
 import niberlogo from "/public/niber-logo.png";
 import Link from "next/link";
 import Image from "next/image";
-import React from "react";
+
 import styles from "./navbar.module.css";
 import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 import { signOut, useSession } from "next-auth/react";
+import { FiMenu, FiX } from "react-icons/fi";
+import { useState } from "react";
 
 const links = [
   {
@@ -26,7 +28,7 @@ const links = [
   {
     id: 4,
     title: "Programs",
-    url: "/programs",
+    url: "/programs/developmental",
   },
   {
     id: 5,
@@ -55,11 +57,43 @@ const links = [
 const Navbar = () => {
   const session = useSession();
 
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logolink}>
         <Image src={niberlogo} alt="" className={styles.logo} />
       </Link>
+
+      {/* navigation */}
+
+      <button className={styles.menuToggle} onClick={() => setIsOpen(!isOpen)}>
+        {/* Hamburger Icon */}
+        <FiMenu className={styles.fimenu} />
+      </button>
+
+      {isOpen && (
+        <div className={styles.mobileMenu}>
+          <button className={styles.closeMenu} onClick={() => setIsOpen(false)}>
+            {/* Close Icon */}
+            <FiX className={styles.Fix} />
+          </button>
+
+          <div className={styles.mobileLinks}>
+            {links.map((link) => (
+              <Link
+                key={link.id}
+                href={link.url}
+                className={styles.mobileLink}
+                onClick={() => setIsOpen(false)}
+              >
+                {link.title}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+
       <div className={styles.links}>
         {links.map((link) => (
           <div key={link.id}>

@@ -10,8 +10,6 @@ export default function Footer() {
         </div>
 
         <div className={styles.links}>
-          <a href="/">Home</a>
-          <a href="/programs">Programs</a>
           <a href="/contact">Contact</a>
           <a href="/blog">Blog</a>
           <a href="/donate">Donate</a>
@@ -38,7 +36,7 @@ export default function Footer() {
               alt="twitter"
             />
           </a>
-          <a href="https://t.me/Niber_Foundation">
+          <a href=" https://www.facebook.com/Niber.Foundation?mibextid=ZbWKwL">
             <Image
               src="/1.png"
               width={25}
@@ -48,7 +46,7 @@ export default function Footer() {
             />
           </a>
 
-          <a href="https://www.youtube.com/@NiberFoundation">
+          <a href="https://t.me/Niber_Foundation">
             <Image
               src="/2.png"
               width={25}
