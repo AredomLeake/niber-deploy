@@ -50,7 +50,7 @@ const links = [
   {
     id: 8,
     title: "Contribution",
-    url: "/exepertise",
+    url: "/donate",
   },
 ];
 
