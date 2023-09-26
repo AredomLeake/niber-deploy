@@ -191,7 +191,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.sec4}>
-        <div className={styles.programsco}>
+        <div className={styles.programsco1}>
           <h2 className={styles.h2}>
             {" "}
             Empowering Communities through Humanitarian Programs
