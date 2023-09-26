@@ -1,0 +1,107 @@
+ /* .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* background-color: orangered; */
+  
+  
+  /* .container h1 {
+    text-align: center;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  } */
+  
+  /* .button {
+    padding: 10px 20px;
+    background-color: rgb(190, 35, 35);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+   
+ .button:hover {
+    background-color: rgb(107, 28, 28);
+  }  */
+  
+
+  .maincontainer {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .maincontainer h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .maincontainer P {
+    margin-bottom: 30px;
+font-size: 20px;
+  }
+
+  
+/* Form container */
+.mainformcontainer{
+  display: flex;
+  justify-content: center;
+}
+.formcontainer {
+  width:20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Form input wrapper */
+.forminputwrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Form input fields */
+.forminput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Form input icons */
+.forminputicon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -25px;
+  color: brown;
+
+}
+
+/* Form submit button */
+.formsubmit {
+  width: 40%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+  background-color: brown ;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
