@@ -4,12 +4,12 @@ const nextConfig = {
     domains: ["images.pexels.com"],
   },
 
-  eslint: {
-    ignoreDuringBuilds: true,
-    rules: {
-      "react/no-unescaped-entities": "off",
-    },
-  },
+  // eslint: {
+  //   ignoreDuringBuilds: true,
+  //   rules: {
+  //     "react/no-unescaped-entities": "off",
+  //   },
+  // },
 };
 
 module.exports = nextConfig;
