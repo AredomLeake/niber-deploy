@@ -121,7 +121,7 @@ export default function Home() {
             <span>0</span>
           </div>
           <div className={styles.descrip}>
-            <p>MONEY RAISED IN 2023 FOR EDUCATIONAL SUPPLY</p>
+            <p>MONEY RAISED IN 2023 FOR SCHOOL RENOVATION</p>
           </div>
         </div>
       </div>
