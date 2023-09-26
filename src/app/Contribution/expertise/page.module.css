@@ -1,0 +1,131 @@
+ .maincontainer {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 20px;
+   
+  }
+  .excontent{
+    display:flex;
+    width: 97%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 300px;
+  }
+  .excontent h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: end;
+    
+  }
+  .excontent p {
+  text-align: start;
+    margin-bottom: 20px;
+  font-size: 20px;
+   }
+  .h1content{
+    flex: 1;
+    height: 300px;
+   display: grid;
+   place-content: center;
+ 
+  }
+  .pcontent{
+    flex: 1;
+    height: 300px;
+    display: grid;
+    place-content: center;
+  
+  }
+  
+  .par{
+    height: 200px;
+    color: black;
+    
+  }  
+  
+/*   
+ .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+.input,
+  .textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+.button {
+    background-color: rgb(190, 35, 35);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+ .button:hover {
+    background-color: rgb(107, 28, 28);
+  }
+    */ 
+
+/* Form container */
+.mainformcontainer{
+  display: flex;
+  justify-content:center;
+}
+.formcontainer {
+  width:20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Form input wrapper */
+.forminputwrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Form input fields */
+.forminput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Form input icons */
+.forminputicon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -25px;
+  color: brown;
+
+}
+
+/* Form submit button */
+.formsubmit {
+  width: 40%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: brown;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Form validation error message */
+.formerror {
+  color: red;
+  margin-top: 5px;
+}
