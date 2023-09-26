@@ -38,12 +38,14 @@
   -webkit-text-fill-color: transparent;
   text-align: justify;
   margin-top: 130px;
+  font-family: "Bebas Neau Pro", Sans-serif;
 }
 .desc {
   font-size: 25px;
   margin-bottom: 15px;
   margin-top: 15px;
   letter-spacing: 2px;
+  font-family: "Bebas Neau Pro", Sans-serif;
 }
 .paraph {
   font-size: 24px;
@@ -51,13 +53,13 @@
   margin-bottom: 50px;
   margin-top: 10px;
   letter-spacing: normal;
+  font-family: "Bebas Neau Pro", Sans-serif;
 }
 .sec1,
 .programsco {
   height: 400px;
   width: 100%;
   background-color: brown;
-
   color: white;
   display: flex;
   align-items: center;
@@ -76,7 +78,7 @@
   font-family: "Bebas Neau Pro", Sans-serif;
   font-weight: 400;
   letter-spacing: 0.5px;
-  font-size: 25px;
+  font-size: 35px;
   line-height: 50px;
 }
 .dash {
@@ -156,7 +158,7 @@
 }
 .descrip {
   width: 330px;
-  font-family: "Cardo", Sans-serif;
+  font-family: "Bebas Neau Pro", Sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
@@ -251,7 +253,7 @@
 }
 .proconco p {
   padding-bottom: 20px;
-  font-family: "Roboto", Sans-serif;
+  font-family: "Bebas Neau Pro", Sans-serif;
   font-weight: 400;
   letter-spacing: 0px;
   text-align: justify;
@@ -381,6 +383,7 @@
     -webkit-text-fill-color: transparent;
     text-align: justify;
     margin-top: 170px;
+    font-family: "Bebas Neau Pro", Sans-serif;
   }
   .desc {
     display: none;
@@ -391,6 +394,7 @@
     width: 90%;
     margin-bottom: 20px;
     margin-top: 10px;
+    font-family: "Bebas Neau Pro", Sans-serif;
   }
   .sec1,
   .programsco {
@@ -410,12 +414,16 @@
     font-family: "Bebas Neau Pro", Sans-serif;
     font-weight: 300;
     letter-spacing: 0px;
-    font-size: 15px;
+    font-size: 23px;
     line-height: 25px;
     white-space: pre-wrap;
     max-width: 95%;
+    text-align: start;
+
     margin: auto;
     margin-top: 40px;
+    word-spacing: normal;
+    white-space: pre-wrap;
 
     /* padding-right: 180px; */
     /* max-width: 100%; */
@@ -442,10 +450,12 @@
     text-align: center;
     /* padding-right: 200px; */
     max-width: 100%;
+    font-family: "Bebas Neau Pro", Sans-serif;
   }
   .sec2 h5 {
     /* padding-right: 200px; */
     max-width: 100%;
+    font-family: "Bebas Neau Pro", Sans-serif;
   }
   .dashb {
     /* margin-right: 40%; */
@@ -498,7 +508,7 @@
   .counter {
     display: flex;
     align-items: center;
-    font-family: "Cardo", Sans-serif;
+    font-family: "Bebas Neau Pro", Sans-serif;
     font-size: 25px;
     font-weight: 400;
     line-height: 1.5em;
@@ -506,7 +516,7 @@
   }
   .descrip {
     width: 330px;
-    font-family: "Cardo", Sans-serif;
+    font-family: "Bebas Neau Pro", Sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
@@ -557,7 +567,7 @@
   }
   .proconco p {
     padding-bottom: 20px;
-    font-family: "Roboto", Sans-serif;
+    font-family: "Bebas Neau Pro", Sans-serif;
     font-weight: 400;
     letter-spacing: 0px;
     text-align: justify;
@@ -586,6 +596,7 @@
     margin-top: 15px;
     /* padding-top: 150px; */
     text-align: center;
+    font-family: "Bebas Neau Pro", Sans-serif;
     /* padding: auto;
     text-align: center; */
   }
