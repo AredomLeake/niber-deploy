@@ -71,11 +71,11 @@ export default function Home() {
           </div>
           <div className={styles.counter}>
             <FaDollarSign />
-            <span>210000</span>
+            <span>0</span>
           </div>
           <div className={styles.descrip}>
             <p>
-              MONEY RAISED IN 2018 TO ASSIST TIGRAY'S INTERANLLY DISPLACED
+              MONEY RAISED IN 2023 TO ASSIST TIGRAY'S INTERANLLY DISPLACED
               PERSONS
             </p>
           </div>
@@ -88,10 +88,10 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.counter}>
-            <span>210000kg</span>
+            <span>0kg</span>
           </div>
           <div className={styles.descrip}>
-            <p>Amount of Wheat Flour Provided for Disaster Relief</p>
+            <p>Amount of consumables supplied for IDPS</p>
           </div>
         </div>
         <div className={styles.impacon}>
@@ -103,13 +103,10 @@ export default function Home() {
           </div>
           <div className={styles.counter}>
             <FaDollarSign />
-            <span>210000</span>
+            <span>0</span>
           </div>
           <div className={styles.descrip}>
-            <p>
-              MONEY RAISED IN 2018 TO ASSIST TIGRAY'S INTERANLLY DISPLACED
-              PERSONS
-            </p>
+            <p>MONEY RAISED IN 2023 FOR MEDICAL SUPPLY</p>
           </div>
         </div>
         <div className={styles.impacon}>
@@ -121,7 +118,7 @@ export default function Home() {
           </div>
           <div className={styles.counter}>
             <FaDollarSign />
-            <span>210000</span>
+            <span>0</span>
           </div>
           <div className={styles.descrip}>
             <p>
