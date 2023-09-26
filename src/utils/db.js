@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 //6.11.1
+mongoose.set("strictQuery", false);
 
 const connect = async () => {
   try {

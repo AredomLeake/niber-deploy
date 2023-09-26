@@ -5,9 +5,12 @@
 }
 
 .item {
-  flex: 1;
   display: flex;
   flex-direction: column;
+  margin-left: 50%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: justify;
 }
 .subcontainer {
   display: flex;
@@ -17,9 +20,10 @@
   background-position: center;
   color: white;
   text-align: center;
-  width: 100%;
-  display: grid;
-  place-content: center;
+  width: 1830px;
+
+  /* display: grid;
+  place-content: center; */
   animation: move 3s infinite ease alternate;
   height: 600px;
   background-repeat: no-repeat;
@@ -28,27 +32,247 @@
 
 .title {
   font-size: 50px;
-  background: linear-gradient(to bottom, red, rgb(241, 241, 142));
+  background: brown;
   -webkit-background-clip: text;
+  background-clip: none;
   -webkit-text-fill-color: transparent;
   text-align: justify;
   margin-top: 130px;
 }
 .desc {
   font-size: 25px;
-  margin: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  letter-spacing: 2px;
 }
-.para {
+.paraph {
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 50px;
   margin-top: 10px;
+  letter-spacing: normal;
 }
-.procontainer {
+.sec1,
+.programsco {
+  height: 400px;
+  width: 100%;
+  background-color: brown;
+
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.programsco {
+  background-color: rgba(97, 4, 4, 0.967);
+}
+.paragra {
+  display: inline-block;
+  text-align: justify;
+  max-width: 80%;
+  font-family: "Bebas Neau Pro", Sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 25px;
+  line-height: 50px;
+}
+.dash {
+  background-color: white;
+  width: 50px;
+  height: 10px;
+  margin: 50px;
+}
+.dashb {
+  background-color: brown;
+  width: 50px;
+  height: 10px;
+  margin: 30px;
+}
+.sec2 {
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.para {
+  display: inline-block;
+  text-align: justify;
+  max-width: 80%;
+  font-family: "Bebas Neau Pro", Sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  font-size: 21px;
+  margin-bottom: 40px;
+  font-size: 22px;
+  line-height: 45px;
+  margin-top: 15px;
+}
+.h2 {
+  margin-bottom: 30px;
+}
+.sec3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+.impacon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.moimpaco {
+  background-color: brown;
+  font-size: 70px;
+  padding: 50px;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  margin-bottom: 20px;
+}
+.dosign {
+  color: white;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  font-family: "Cardo", Sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.descrip {
+  width: 330px;
+  font-family: "Cardo", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+.programainco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prosubco,
+.prosubco1,
+.prosubco2,
+.prosubco3,
+.prosubco4,
+.prosubco5 {
+  display: grid;
+  place-content: center;
+  background-size: cover;
+  line-height: 25px;
+  background-position: center;
+  flex: 1;
+  color: white;
+  text-align: center;
+  height: 400px;
+  opacity: 0.8;
+  transition: opacity 0.5s;
+}
+.prosubco {
+  background-image: url("/farm11.png");
+}
+.prosubco1 {
+  background-image: url("/rural.png");
+}
+.prosubco2 {
+  background-image: url("/water.png");
+}
+.prosubco3 {
+  background-image: url("/emer.png");
+}
+.prosubco4 {
+  background-image: url("/shool.png");
+}
+.prosubco5 {
+  background-image: url("/consum.png");
+}
+.proconco {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 400px;
+  margin: auto;
+}
+.prosubco:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+.prosubco1:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+.prosubco2:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+.prosubco3:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+.prosubco4:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+.prosubco5:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+.proconco h3 {
+  color: red;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+  font-family: "Bebas Neau Pro", Sans-serif;
+  font-size: 36px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+.proconco p {
+  padding-bottom: 20px;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-align: justify;
+  max-width: 80%;
+  margin-left: 30px;
+}
+.button {
+  padding: 10px;
+  border: 3px solid red;
+  color: red;
+  background-color: transparent;
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+/* .procontainer {
   text-align: center;
   font-weight: large;
   margin: 20px;
-}
+} */
 
 /* .img {
   width: 100%;
@@ -57,7 +281,7 @@
   animation: move 3s infinite ease alternate;
 } */
 
-.projectco {
+/* .projectco {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -123,39 +347,250 @@
 .img {
   width: 100%;
   height: 100%;
-}
+}*/
+
 @media (max-width: 600px) {
   .container {
     max-width: 95%;
     margin: auto;
   }
+
   .subcontainer {
-    height: 400px;
-  }
-  .item {
-    flex: 1;
     display: flex;
+    justify-content: flex-start;
+    background-image: url("/thome.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+  }
+
+  .item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 10%;
   }
   .title {
-    font-size: 21px;
-    background: linear-gradient(to bottom, red, rgb(241, 241, 142));
+    font-size: 30px;
+    background: white;
     -webkit-background-clip: text;
+    background-clip: none;
     -webkit-text-fill-color: transparent;
     text-align: justify;
-    margin-top: 150px;
+    margin-top: 170px;
   }
   .desc {
-    font-size: 16px;
-    margin: 7px;
+    display: none;
   }
-  .para {
-    font-size: 14px;
-    font-weight: 300;
+  .paraph {
+    font-size: 16px;
+    font-weight: 500;
+    width: 90%;
     margin-bottom: 20px;
     margin-top: 10px;
   }
+  .sec1,
+  .programsco {
+    height: 400px;
+    max-width: 100%;
+    /* max-width: 590px; */
+    background-color: brown;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .paragra {
+    font-family: "Bebas Neau Pro", Sans-serif;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-size: 15px;
+    line-height: 25px;
+    white-space: pre-wrap;
+    max-width: 95%;
+    margin: auto;
+    margin-top: 40px;
 
-  .projectco {
+    /* padding-right: 180px; */
+    /* max-width: 100%; */
+  }
+  .dash {
+    display: none;
+  }
+  .sec2 {
+    /* max-width: 590px; */
+    max-width: 100%;
+    margin: auto;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .sec2 h1 {
+    font-size: 25px;
+    text-align: center;
+    /* padding-right: 200px; */
+    max-width: 100%;
+  }
+  .sec2 h5 {
+    /* padding-right: 200px; */
+    max-width: 100%;
+  }
+  .dashb {
+    /* margin-right: 40%; */
+    max-width: 100%;
+  }
+  .para {
+    text-align: justify;
+    max-width: 95%;
+    margin: auto;
+    font-family: "Bebas Neau Pro", Sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    /* white-space: pre-wrap; */
+    font-size: 15px;
+    margin-top: 15px;
+    /* padding-right: 180px; */
+    max-width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 2px;
+  }
+  .sec3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    /* width: 70%; */
+    max-width: 100%;
+  }
+  .moimpaco {
+    background-color: brown;
+    font-size: 40px;
+    padding: 30px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    margin-bottom: 20px;
+  }
+  .impacon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .counter {
+    display: flex;
+    align-items: center;
+    font-family: "Cardo", Sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5em;
+    width: 35%;
+  }
+  .descrip {
+    width: 330px;
+    font-family: "Cardo", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+  }
+  .programainco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .prosubco {
+    display: grid;
+    place-content: center;
+    background-image: url("/farm11.png");
+    background-size: cover;
+    line-height: 25px;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 400px;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+  }
+  .proconco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 400px;
+    margin: auto;
+  }
+  .prosubco:hover {
+    opacity: 0.7;
+    transition: opacity 0.5s;
+  }
+  .proconco h3 {
+    color: red;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.3em;
+    letter-spacing: 0px;
+    font-family: "Bebas Neau Pro", Sans-serif;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+  }
+  .proconco p {
+    padding-bottom: 20px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: justify;
+    max-width: 90%;
+    margin-left: 30px;
+    font-size: 16px;
+  }
+  .button {
+    padding: 10px;
+    border: 1.5px solid red;
+    color: red;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  .para span {
+    display: none;
+  }
+
+  .h2 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    /* padding-top: 150px; */
+    text-align: center;
+    /* padding: auto;
+    text-align: center; */
+  }
+
+  /* .projectco {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -213,5 +648,5 @@
   }
   to {
     transform: translateY(10px);
-  }
+  } */
 }

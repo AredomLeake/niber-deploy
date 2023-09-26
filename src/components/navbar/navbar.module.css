@@ -5,6 +5,8 @@
   align-items: center;
   width: 100%;
   background: rgb(230, 229, 229);
+  /* background-color: rgba(0, 0, 0, 0.5);
+  background-color: transparent; */
   box-shadow: inset;
   position: fixed;
   top: 0;
