@@ -122,7 +122,7 @@ export default function Home() {
           </div>
           <div className={styles.descrip}>
             <p>
-              MONEY RAISED IN 2018 TO ASSIST TIGRAY'S INTERANLLY DISPLACED
+              MONEY RAISED IN 2023 TO ASSIST TIGRAY'S INTERANLLY DISPLACED
               PERSONS
             </p>
           </div>
