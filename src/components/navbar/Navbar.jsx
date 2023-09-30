@@ -44,7 +44,7 @@ const links = [
   {
     id: 7,
     title: "Subscribe",
-    url: "/contact",
+    url: "/subscriber",
   },
 
   {

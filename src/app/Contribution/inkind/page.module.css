@@ -43,8 +43,9 @@
   }
   
   .maincontainer h1 {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 30px;
+    margin-top: 50px;
     text-align: center;
   }
   .maincontainer P {
@@ -99,9 +100,24 @@ font-size: 20px;
   padding: 10px;
   margin-top: 10px;
   margin-left: 30px;
-  background-color: brown ;
+  background-color: brown;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+
+  .formcontainer {
+    width:50%;
+  }
+  .maincontainer P {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .maincontainer h1 {
+    font-size: 30px;
+}
 }

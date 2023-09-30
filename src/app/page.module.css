@@ -21,7 +21,7 @@
   color: white;
   text-align: center;
   width: 1830px;
-
+margin-top: 55px;
   /* display: grid;
   place-content: center; */
   animation: move 3s infinite ease alternate;

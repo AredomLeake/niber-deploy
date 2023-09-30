@@ -129,3 +129,49 @@
   color: red;
   margin-top: 5px;
 }
+
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .excontent{
+    flex-direction: column;
+    gap: 3px;
+  }
+  .excontent h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.h1content{
+ 
+  margin-bottom: 5px;
+}
+.excontent p {
+  text-align:start;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+   }
+   .formcontainer {
+    width:50%;
+   }
+   .par{
+   
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 50px;
+   }
+}
+
+
+
+
+@media (max-width: 480px) {
+  .maincontainer {
+    /* Further adjust the styles for even smaller screens */
+  }
+
+  /* Add more styles specific to smaller screens if needed */
+}

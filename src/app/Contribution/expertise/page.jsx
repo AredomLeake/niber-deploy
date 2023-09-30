@@ -9,7 +9,7 @@ const Expertise = () => {
   const [email, setEmail] = useState("");
   const [expertise, setExpertise] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // Here you can include the logic to submit the expertise to your backend or API
 
@@ -17,6 +17,24 @@ const Expertise = () => {
     setName("");
     setEmail("");
     setExpertise("");
+
+    try {
+      const res = await fetch("/api/auth/subscriber", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          message,
+        }),
+      });
+      res.status === 201 && router.push("/?success=Account has been created");
+    } catch (err) {
+      setError(err);
+      console.log(err);
+    }
   };
   return (
     <div className={styles.maincontainer}>
@@ -78,7 +96,7 @@ const Expertise = () => {
             />
           </div>
 
-          <button className={styles.formsubmit} type="submit">
+          <button url="#" className={styles.formsubmit} type="submit">
             Submit
           </button>
         </form>
