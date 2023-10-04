@@ -69,7 +69,8 @@ margin-top: 55px;
   margin-bottom: 30px;
 }
 .programsco {
-  background-color: rgba(97, 4, 4, 0.967);
+  background-color: white;
+  color: black;
 }
 .paragra {
   display: inline-block;
@@ -119,6 +120,7 @@ margin-top: 55px;
 }
 .h2 {
   margin-bottom: 30px;
+  color: brown;
 }
 .sec3 {
   display: flex;
