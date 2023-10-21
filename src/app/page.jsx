@@ -2,7 +2,6 @@
 import styles from "./page.module.css";
 import { FaDollarSign } from "react-icons/fa";
 import { FaShoppingBasket } from "react-icons/fa";
-
 import Button from "@/components/Button/Button";
 import Link from "next/link";
 
@@ -125,7 +124,7 @@ export default function Home() {
             <div className={styles.proconco}>
               <h3>Agriculture Modernization:</h3>
               <p>
-                In collaboration with Niberfoundation, our program aims to
+                In collaboration with Niber Foundation, our program aims to
                 enhance agricultural productivity, sustainability, and
                 profitability.
               </p>
@@ -232,156 +231,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* <div>
-          <FaShoppingBasket />
-          <p>Amount of Wheat Flour Provided for Disaster Relief</p>
-        </div> */}
-      {/* <div className={styles.procontainer}>
-        <div>
-          <h1>Programs</h1>
-        </div>
-      </div>
-      <div className={styles.projectco}>
-        <div className={styles.devco}>
-          <div className={styles.devtitle}>
-            <h2>Developmental</h2>
-          </div>
-          <div className={styles.progc}>
-            <p className={styles.devdesc}>
-              Political strength emanates from strong economy. So, economic
-              empowerment of Tegarus is a basis for all.
-            </p>
-            <div className={styles.programimg}>
-              <Image src={farm11} alt="" className={styles.farmimg} />
-            </div>
-          </div>
-        </div>
-        <div className={styles.devco}>
-          <div className={styles.devtitle}>
-            <h2>Humanitarian</h2>
-          </div>
-          <div className={styles.progc}>
-            <p className={styles.devdesc}>
-              Quick emergency relief need, with an intention of no one will
-              NEVER die due to post-war intervention failure
-            </p>
-            <div className={styles.programimg}>
-              <Image src={hum} alt="" className={styles.donimg} />
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* add sections */}
-
-      {/*
-      <div className={styles.devpro}>
-        <h1>Developmental Programs</h1>
-      </div>
-      <div className={styles.progra}>
-        <div className={styles.prog}>
-          <h3>Agriculture Modernization</h3>
-          <p>
-            Project Beneficiaries: - IDPs their children died during the war
-            <br />
-            Project Finance: - ETB 1 Billion
-          </p>
-          <div className={styles.programimg}>
-            <Image src={agri} alt="" className={styles.img} />
-          </div>
-        </div>
-
-        <div className={styles.prog}>
-          <h3>Rural-youth empowerment</h3>
-          <p>
-            Project Beneficiaries:- Pilot farmers children <br />
-            Project Finance:- ETB 1 Billion
-          </p>
-          <div className={styles.programimg}>
-            <Image src={rural} alt="" className={styles.img} />
-          </div>
-        </div>
-
-        <div className={styles.prog}>
-          <h3>Youth vocational capacitating</h3>
-          <p>
-            Project Beneficiaries:- Unemployed urban youth <br />
-            Project Finance:- ETB 1 Billion
-          </p>
-          <div className={styles.programimg}>
-            <Image src={youth} alt="" className={styles.img} />
-          </div>
-        </div>
-        <div className={styles.prog}>
-          <h3>Water & domestic vegetation</h3>
-          <p>
-            Project Beneficiaries:- Rural community
-            <br />
-            Project Finance:- ETB 10 million
-          </p>
-          <div className={styles.programimg}>
-            <Image src={water} alt="" className={styles.img} />
-          </div>
-        </div>
-      </div>
-      <div className={styles.linkdiv}>
-        <Button url="/programs/developmental" text="See Our Works" />
-      </div>
-      <div className={styles.devpro}>
-        <h1>Humanitarian Programs</h1>
-      </div>
-      <div className={styles.progra}>
-        <div className={styles.prog}>
-          <h3>School Renovation</h3>
-          <p>
-            Project Beneficiaries:- War-torn schools
-            <br />
-            Project Finance:- ETB 200 billion
-          </p>
-
-          <div className={styles.programimg}>
-            <Image src={school} alt="" className={styles.img} />
-          </div>
-        </div>
-
-        <div className={styles.prog}>
-          <h3>Post-war psychosocial support</h3>
-          <p>
-            Project Beneficiaries:- All age women encountered GBV
-            <br />
-            Project Finance:- ETB 20 million{" "}
-          </p>
-          <div className={styles.programimg}>
-            <Image src={sycho} alt="" className={styles.img} />
-          </div>
-        </div>
-
-        <div className={styles.prog}>
-          <h3>Emergency medical supply</h3>
-          <p>
-            Project Beneficiaries:- Veterans with disability
-            <br />
-            Project Finance:- ETB 100 million
-          </p>
-          <div className={styles.programimg}>
-            <Image src={emer} alt="" className={styles.img} />
-          </div>
-        </div>
-        <div className={styles.prog}>
-          <h3>Consumables supply</h3>
-          <p>
-            Project Beneficiaries:- IDPs their children died during the war
-            <br />
-            Project Finance:- ETB 200 Billion
-          </p>
-          <div className={styles.programimg}>
-            <Image src={consum} alt="" className={styles.img} />
-          </div>
-        </div>
-      </div>
-      <div className={styles.linkdiv}>
-        <Button url="/programs/humanitarian" text="See Our Works" />
-      </div> */}
     </div>
   );
 }

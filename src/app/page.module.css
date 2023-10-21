@@ -10,7 +10,7 @@
   margin-left: 50%;
   align-items: flex-start;
   justify-content: flex-start;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .subcontainer {
   display: flex;
@@ -39,7 +39,7 @@
   /* background-color: black; */
   color: white;
 
-  text-align: justify;
+  /* text-align: justify; */
   margin-top: 130px;
   font-family: "Montserrat", "Roboto";
 }
@@ -83,8 +83,7 @@
   width: 98%;
 }
 .paragra {
-  display: inline-block;
-  text-align: justify;
+  display: block;
   max-width: 80%;
   font-family: "Montserrat", "Roboto";
   font-weight: 400;
@@ -110,16 +109,21 @@
   margin-top: 30px;
   margin-bottom: 20px;
 }
+.sec2 h1 {
+  font-size: 60px;
+}
+.sec2 h5 {
+  font-size: 25px;
+}
 .para {
   display: block;
-  text-align: justify;
   max-width: 80%;
   font-family: "Montserrat", "Roboto";
-
-  font-size: 24px;
+  font-size: 25px;
   line-height: 45px;
   font-size: 25px;
-  margin-top: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   color: black;
 }
 .h2 {
@@ -165,12 +169,12 @@
 }
 .descrip {
   width: 330px;
-  font-weight: bold;
-  font-size: 18px;
-
-  font-family: "Montserrat", "Roboto";
   text-align: center;
   margin: 10px;
+}
+.descrip {
+  font-size: 20px;
+  font-family: "Montserrat", "Roboto";
 }
 .programainco {
   display: flex;
@@ -225,7 +229,6 @@
   background-color: rgba(0, 0, 0, 0.65);
   height: 400px;
   line-height: 30px;
-  margin: auto;
 }
 .prosubco:hover {
   opacity: 0.7;
@@ -308,7 +311,7 @@
   }
   .title {
     font-size: 30px;
-    text-align: justify;
+    /* text-align: justify; */
     margin-top: 170px;
   }
   .desc {
@@ -322,28 +325,29 @@
     margin-top: 10px;
   }
   .sec1,
-  .programsco {
-    height: 400px;
+  .programsco,
+  .programsco1 {
+    height: 450px;
 
     /* max-width: 590px; */
     /* background-color: brown; */
+    width: 100%;
 
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    /* align-items: flex-start; */
+    justify-content: center;
     flex-direction: column;
-    margin-top: 30px;
-    text-align: start;
+    margin-top: 20px;
+    text-align: center;
     margin-bottom: 30px;
   }
   .paragra {
     font-weight: 300;
     font-size: 23px;
     line-height: 32px;
-
-    max-width: 95%;
-    margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 0px;
 
     /* padding-right: 180px; */
     /* max-width: 100%; */
@@ -355,7 +359,6 @@
     /* max-width: 590px; */
     max-width: 100%;
     margin: auto;
-
     display: flex;
     align-items: center;
     text-align: center;
@@ -376,19 +379,15 @@
   }
 
   .para {
-    text-align: justify;
-    max-width: 95%;
-    margin: auto;
-
-    font-weight: normal;
-    letter-spacing: 1px;
+    /* text-align: justify; */
+    max-width: 99%;
     /* white-space: pre-wrap; */
     font-size: 15px;
     margin-top: 15px;
     /* padding-right: 180px; */
     max-width: 100%;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
     margin-top: 2px;
   }
@@ -474,24 +473,19 @@
     text-transform: none;
     line-height: 1.3em;
     letter-spacing: 0px;
-
     font-size: 25px;
     margin-bottom: 40px;
-    margin-left: 30px;
   }
   .proconco p {
     padding-bottom: 20px;
-
     font-weight: 400;
-    letter-spacing: 0px;
-    text-align: justify;
-    max-width: 90%;
+    /* letter-spacing: 0px; */
+    /* text-align: justify; */
     margin-left: 30px;
-    font-size: 16px;
+    font-size: 18px;
   }
   .button {
     padding: 10px;
-
     background-color: transparent;
     font-size: 14px;
     font-weight: bold;

@@ -1,7 +1,5 @@
 "use client";
-
 import Link from "next/link";
-
 import styles from "./navbar.module.css";
 import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 import { signOut, useSession } from "next-auth/react";
