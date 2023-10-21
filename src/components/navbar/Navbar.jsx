@@ -1,7 +1,6 @@
 "use client";
-import niberlogo from "/public/niber-logo.png";
+
 import Link from "next/link";
-import Image from "next/image";
 
 import styles from "./navbar.module.css";
 import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";

@@ -3,18 +3,6 @@ import styles from "./page.module.css";
 import { FaDollarSign } from "react-icons/fa";
 import { FaShoppingBasket } from "react-icons/fa";
 
-// import Hero from "public/hero.png";
-//import thome from "public/thome.png";
-// import farm11 from "public/farm11.png";
-// import hum from "public/hum1.png";
-// import agri from "public/Agri.png";
-// import youth from "public/youth.png";
-// import school from "public/shool.png";
-// import sycho from "public/sycho.png";
-// import emer from "public/emer.png";
-// import consum from "public/consum.png";
-// import rural from "public/rural.png";
-// import water from "public/water.png";
 import Button from "@/components/Button/Button";
 import Link from "next/link";
 
@@ -22,10 +10,6 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.subcontainer}>
-        {/* <div className={styles.imgco}>
-          {/* <Image src={Hero} alt="" className={styles.img} /> 
-          <Image src={thome} alt="" className={styles.img} />
-        </div> */}
         <div className={styles.item}>
           <h1 className={styles.title}> Rebuild Tigray </h1>
           <h3 className={styles.desc}>Making a difference in our community</h3>
