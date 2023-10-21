@@ -23,5 +23,4 @@ const subscriberSchema = new Schema(
 );
 
 //If the User collection does not exist create a new one.
-export default mongoose.models.Subscriber ||
-  mongoose.model(" Subscriber", subscriberSchema);
+export default mongoose.models.Subscriber || mongoose.model(" Subscriber", subscriberSchema);

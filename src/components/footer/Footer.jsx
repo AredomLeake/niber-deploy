@@ -1,12 +1,12 @@
 import Image from "next/image";
-import nber from "/public/niber-logo.png";
+// import nber from "/public/niber-logo.png";
 import styles from "./footer.module.css";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.footercontainer}>
         <div className={styles.logo}>
-          <Image src={nber} alt="" className={styles.logo} />
+          <img src="/niber-logo.png" alt="" className={styles.logo} />
         </div>
 
         <div className={styles.links}>
@@ -19,7 +19,7 @@ export default function Footer() {
 
         <div className={styles.social}>
           <a href="https://www.youtube.com/@NiberFoundation">
-            <Image
+            <img
               src="/4.png"
               width={25}
               height={25}
@@ -28,7 +28,7 @@ export default function Footer() {
             />
           </a>
           <a href="https://twitter.com/NiberFoundation?t=EVaHrxbBUpKrEKte3DSfEQ&s=09">
-            <Image
+            <img
               src="/3.png"
               width={25}
               height={25}
@@ -37,7 +37,7 @@ export default function Footer() {
             />
           </a>
           <a href=" https://www.facebook.com/Niber.Foundation?mibextid=ZbWKwL">
-            <Image
+            <img
               src="/1.png"
               width={25}
               height={25}
@@ -47,7 +47,7 @@ export default function Footer() {
           </a>
 
           <a href="https://t.me/Niber_Foundation">
-            <Image
+            <img
               src="/2.png"
               width={25}
               height={25}
@@ -59,7 +59,11 @@ export default function Footer() {
       </div>
 
       <div className={styles.copyright}>
-        &copy; {new Date().getFullYear()} Niber Foundation. All rights reserved.
+        <p className={styles.copyright}>
+          {" "}
+          &copy; {new Date().getFullYear()} Niber Foundation, All rights
+          reserved.
+        </p>
       </div>
     </footer>
   );

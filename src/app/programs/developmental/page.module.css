@@ -12,7 +12,7 @@
   text-align: center;
   font-size: 30px;
   margin: 30px;
-  color: brown;
+  color: #fd9a01;
 }
 .subcontainer {
   display: flex;
@@ -39,7 +39,7 @@
 }
 .descontainer h3 {
   font-size: 27px;
-  color: brown;
+  color: #fd9a01;
   text-align: center;
 }
 
@@ -56,7 +56,7 @@
     text-align: center;
     font-size: 25px;
 
-    color: brown;
+    color: #fd9a01;
   }
   .subcontainer {
     display: flex;
@@ -68,7 +68,7 @@
   }
   .descontainer h3 {
     font-size: 21px;
-    color: brown;
+    color: #fd9a01;
     text-align: center;
     margin: 20px;
   }

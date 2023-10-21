@@ -45,7 +45,6 @@ export default function Home() {
           power of sustainable development and social empowerment to create
           lasting change in communities affected by conflict.
         </p>
-        <div className={styles.dash}></div>
       </div>
       <div className={styles.sec2}>
         <h1>Our Impact</h1>
@@ -75,8 +74,7 @@ export default function Home() {
           </div>
           <div className={styles.descrip}>
             <p>
-              MONEY RAISED IN 2023 TO ASSIST TIGRAY'S INTERANLLY DISPLACED
-              PERSONS
+              Money raised in 2023 to assist Tigray internally displaced persons
             </p>
           </div>
         </div>
@@ -106,7 +104,7 @@ export default function Home() {
             <span>0</span>
           </div>
           <div className={styles.descrip}>
-            <p>MONEY RAISED IN 2023 FOR MEDICAL SUPPLY</p>
+            <p>Money raised in 2023 for medical supplies</p>
           </div>
         </div>
         <div className={styles.impacon}>
@@ -121,7 +119,7 @@ export default function Home() {
             <span>0</span>
           </div>
           <div className={styles.descrip}>
-            <p>MONEY RAISED IN 2023 FOR SCHOOL RENOVATION</p>
+            <p>Money raised in 2023 for School renovation</p>
           </div>
         </div>
       </div>

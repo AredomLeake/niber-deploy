@@ -1,4 +1,7 @@
 /* Styles */
+.container {
+  height: 100vh;
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -8,7 +11,7 @@
   margin-top: 100px;
 }
 .amountbuttons button {
-  background: brown;
+  background: #fd9a01;
   border: none;
   border-radius: 4px;
   color: #fff;
@@ -19,11 +22,11 @@
 }
 
 .amountbuttons button:hover {
-  background: rgb(156, 42, 42);
+  background: #fd9001;
 }
 
 .input input {
-  border: 1px solid brown;
+  border: 1px solid #fd9a01;
   border-radius: 4px;
   padding: 12px;
   font-size: 16px;
@@ -36,7 +39,7 @@
 }
 
 .submitbutton {
-  background: brown;
+  background: #fd9a01;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -46,13 +49,13 @@
 }
 
 .submitbutton:hover {
-  background: rgb(201, 34, 34);
+  background: #fd9a01;
 }
 .span {
-  color: brown;
+  color: #fd9a01;
 }
 .label {
-  color: brown;
+  font-size: 20px;
 }
 @media (max-width: 600px) {
   .form {
@@ -64,7 +67,6 @@
     margin-top: 60px;
   }
   .amountbuttons button {
-    background: brown;
     border: none;
     border-radius: 4px;
     color: #fff;
@@ -75,7 +77,6 @@
     width: max-content;
   }
   .input input {
-    border: 1px solid brown;
     border-radius: 4px;
     padding: 12px;
     font-size: 16px;

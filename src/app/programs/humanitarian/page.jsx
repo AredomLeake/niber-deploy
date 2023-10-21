@@ -1,9 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
-import hum2 from "/public/hum2.png";
-import human1 from "/public/human1.png";
-import edu from "public/edu1.png";
 
 const humanitarian = () => {
   /* eslint-disable react/no-unescaped-entities */
@@ -30,7 +27,7 @@ const humanitarian = () => {
           </p>
         </div>
         <div className={styles.imgContainer}>
-          <Image className={styles.img} src={hum2} alt="" />
+          <img src="/hum2.png" className={styles.img} alt="" />
         </div>
       </div>
       <div className={styles.subcontainer}>
@@ -49,7 +46,7 @@ const humanitarian = () => {
           </p>
         </div>
         <div className={styles.imgContainer}>
-          <Image className={styles.img} src={human1} alt="" />
+          <img src="/human1.png" className={styles.img} alt="" />
         </div>
       </div>
       <div className={styles.subcontainer}>
@@ -68,7 +65,7 @@ const humanitarian = () => {
           </p>
         </div>
         <div className={styles.imgContainer}>
-          <Image className={styles.img} src={edu} alt="" />
+          <img src="/edu1.png" className={styles.img} alt="" />
         </div>
       </div>
     </div>

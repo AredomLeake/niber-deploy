@@ -1,9 +1,5 @@
 import React from "react";
 import styles from "./page.module.css";
-import Image from "next/image";
-import hum2 from "/public/farm11.png";
-import human1 from "/public/train1.png";
-import edu from "public/edu2.png";
 
 const developmental = () => {
   return (
@@ -26,7 +22,7 @@ const developmental = () => {
           </p>
         </div>
         <div className={styles.imgContainer}>
-          <Image className={styles.img} src={hum2} alt="" />
+          <img src="/farm11.png" className={styles.img} alt="" />
         </div>
       </div>
       <div className={styles.subcontainer}>
@@ -43,7 +39,7 @@ const developmental = () => {
           </p>
         </div>
         <div className={styles.imgContainer}>
-          <Image className={styles.img} src={human1} alt="" />
+          <img src="/train1.png" className={styles.img} alt="" />
         </div>
       </div>
       <div className={styles.subcontainer}>
@@ -61,7 +57,7 @@ const developmental = () => {
           </p>
         </div>
         <div className={styles.imgContainer}>
-          <Image className={styles.img} src={edu} alt="" />
+          <img src="/edu2.png" className={styles.img} alt="" />
         </div>
       </div>
     </div>

@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+// "export":"next build && next export", shortcuted from json scripts
+
 First, run the development server:
 
 ```bash

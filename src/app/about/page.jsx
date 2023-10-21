@@ -1,20 +1,13 @@
 import React from "react";
 import styles from "./page.module.css";
-import Image from "next/image";
+// import Image from "next/image";
 import Button from "@/components/Button/Button";
 
 const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <Image src="/hum2.png" fill={true} alt="" className={styles.img} />
-        <div className={styles.imgText}>
-          <h1 className={styles.imgTitle}>Niber Foundation </h1>
-          <h2 className={styles.imgDesc}>
-            A non profitable organization working on war-torn regions in
-            Ethiopia
-          </h2>
-        </div>
+        <img src="/hum2.png" alt="" className={styles.img} />
       </div>
       <div className={styles.textContainer}>
         <div className={styles.item}>
@@ -51,7 +44,7 @@ const About = () => {
           </p>
         </div>
         <div className={styles.imagecon}>
-          <Image
+          <img
             src="/discus1.png"
             width={1400}
             height={600}
@@ -91,7 +84,7 @@ const About = () => {
           </p>
         </div>
         <div className={styles.imagecon}>
-          <Image
+          <img
             src="/human1.png"
             width={1400}
             height={600}

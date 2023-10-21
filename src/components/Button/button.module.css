@@ -2,10 +2,10 @@
   padding: 20px;
   cursor: pointer;
   /* background-color: #53c28b; */
-  background-color: brown;
+  background-color: #fd9a01;
   border: none;
   border-radius: 5px;
   width: 200px;
   color: white;
- 
+  font-size: large;
 }
