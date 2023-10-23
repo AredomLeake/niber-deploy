@@ -22,9 +22,9 @@ const About = () => {
             of war on societies, leaving behind shattered infrastructure,
             displaced populations, and fractured economies. Our mission is to
             bring hope, stability, and progress to these regions by implementing
-            innovative and impactful initiatives. Economic
+            innovative and impactful initiatives. 
             <br />
-            <br /> Empowerment:We strongly believe that economic stability is
+            <br /> Economic Empowerment:We strongly believe that economic stability is
             the cornerstone of rebuilding communities. Through our various
             programs and projects, we strive to create sustainable livelihood
             opportunities for individuals affected by war. By providing

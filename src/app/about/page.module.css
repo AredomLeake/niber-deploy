@@ -41,8 +41,11 @@
 
 .desc {
   font-size: 18px;
+  line-height: 30px;
   font-weight: 300;
+  font-family: "Montserrat", "Roboto";
   text-align: justify;
+  text-align: start;
   margin-bottom: 20px;
 }
 .title {
@@ -116,10 +119,11 @@
     color: black;
   }
   .desc {
-    font-size: 14px;
-    font-weight: normal;
-    text-align: justify;
+    font-size: 17px;
+    letter-spacing: normal;
+    text-align: center;
+    display: block;
     margin-bottom: 10px;
-    line-height: 20px;
+    line-height: 28px;
   }
 }

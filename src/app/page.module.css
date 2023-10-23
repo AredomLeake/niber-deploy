@@ -85,6 +85,7 @@
 .paragra {
   display: block;
   max-width: 80%;
+  text-align: justify;
   font-family: "Montserrat", "Roboto";
   font-weight: 400;
   letter-spacing: 0.5px;
@@ -387,8 +388,8 @@
     /* padding-right: 180px; */
     max-width: 100%;
     padding: 10px;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 35px;
     margin-top: 2px;
   }
   .sec3 {
@@ -447,7 +448,7 @@
     place-content: center;
     background-image: url("/farm11.png");
     background-size: cover;
-    line-height: 25px;
+    line-height: normal;
     background-position: center;
     color: white;
     text-align: center;
@@ -463,6 +464,7 @@
     background-color: rgba(0, 0, 0, 0.65);
     height: 400px;
     margin: auto; */
+    width: 100%;
   }
   .prosubco:hover {
     opacity: 0.7;
@@ -496,9 +498,9 @@
   }
 
   .h2 {
-    font-size: 16px;
+    font-size: 24px;
     letter-spacing: 1px;
-    line-height: 25px;
+    line-height: 35px;
     margin-bottom: 10px;
     margin-top: 15px;
     /* padding-top: 150px; */
