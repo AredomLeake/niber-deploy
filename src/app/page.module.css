@@ -85,12 +85,12 @@
 .paragra {
   display: block;
   max-width: 80%;
-  text-align: justify;
+  text-align: start;
   font-family: "Montserrat", "Roboto";
   font-weight: 400;
   letter-spacing: 0.5px;
   font-size: 35px;
-  line-height: 50px;
+  line-height: 56px;
 }
 
 .dashb {
@@ -120,8 +120,8 @@
   display: block;
   max-width: 80%;
   font-family: "Montserrat", "Roboto";
-  font-size: 25px;
-  line-height: 45px;
+  font-size: 30px;
+  line-height: 48px;
   font-size: 25px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -172,6 +172,7 @@
   width: 330px;
   text-align: center;
   margin: 10px;
+  font-family: "Montserrat", "Roboto";
 }
 .descrip {
   font-size: 20px;
@@ -225,10 +226,12 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+  gap: 40px;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.65);
   height: 400px;
+  font-size: 23px;
   line-height: 30px;
 }
 .prosubco:hover {
@@ -264,17 +267,16 @@
   letter-spacing: 0px;
   font-family: "Montserrat", "Roboto";
   font-size: 36px;
-  margin-bottom: 40px;
-  margin-left: 30px;
 }
 .proconco p {
   padding-bottom: 20px;
   font-family: "Montserrat", "Roboto";
   font-weight: 400;
-  font-size: 21px;
+  font-size: 23px;
+  line-height: 35.8px;
   letter-spacing: normal;
-  max-width: 80%;
-  margin-left: 30px;
+
+  width: 95%;
 }
 .button {
   padding: 10px;
@@ -283,7 +285,6 @@
   background-color: transparent;
   font-size: medium;
   font-weight: bold;
-  margin-left: 30px;
 }
 
 @media (max-width: 600px) {
@@ -349,6 +350,7 @@
     margin-top: 30px;
     text-align: center;
     padding: 0px;
+    max-width: 97%;
 
     /* padding-right: 180px; */
     /* max-width: 100%; */
@@ -431,17 +433,18 @@
   }
   .descrip {
     width: 330px;
-
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
+    font-family: "Montserrat", "Roboto";
   }
   .programainco {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
   }
   .prosubco {
     display: grid;
@@ -452,18 +455,15 @@
     background-position: center;
     color: white;
     text-align: center;
-    height: 400px;
+    height: 450px;
     opacity: 0.8;
     transition: opacity 0.5s;
   }
   .proconco {
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: flex-start;
-    background-color: rgba(0, 0, 0, 0.65);
-    height: 400px;
-    margin: auto; */
+    margin: 3px;
+    margin: auto;
     width: 100%;
   }
   .prosubco:hover {
@@ -475,23 +475,22 @@
     text-transform: none;
     line-height: 1.3em;
     letter-spacing: 0px;
-    font-size: 25px;
-    margin-bottom: 40px;
+    font-size: 28px;
   }
   .proconco p {
     padding-bottom: 20px;
     font-weight: 400;
     /* letter-spacing: 0px; */
     /* text-align: justify; */
-    margin-left: 30px;
-    font-size: 18px;
+    padding: 2px;
+    font-size: 21px;
   }
   .button {
-    padding: 10px;
+    padding: 15px;
     background-color: transparent;
     font-size: 14px;
     font-weight: bold;
-    margin-left: 30px;
+    width: 150px;
   }
   .para span {
     display: none;

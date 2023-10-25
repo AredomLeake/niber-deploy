@@ -1,6 +1,7 @@
 import Image from "next/image";
 // import nber from "/public/niber-logo.png";
 import styles from "./footer.module.css";
+import Link from "next/link";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
@@ -10,11 +11,11 @@ export default function Footer() {
         </div>
 
         <div className={styles.links}>
-          <a href="/contact">Contact</a>
-          <a href="/blog">Blog</a>
-          <a href="/donate">Donate</a>
-          <a href="/about">About</a>
-          <a href="/programs/humanitarian">Contribution</a>
+          <Link href="/contact">Contact</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/donate">Donate</Link>
+          <Link href="/about">About</Link>
+          <Link href="/programs/humanitarian">Contribution</Link>
         </div>
 
         <div className={styles.social}>

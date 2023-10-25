@@ -12,41 +12,62 @@
   top: 0;
   z-index: 100;
 }
+.programs {
+  position: relative;
+}
 .submenu {
   display: none;
   position: absolute;
-
+  z-index: 100;
   /* other styles */
-}
-.programs:hover .submenu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
+  padding: 20px;
   border-radius: 5px;
-  margin-top: 5px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+  font-size: 18px;
   line-height: 30px;
+  gap: 10px;
   width: max-content;
   background-color: whitesmoke;
 }
 .cosubmenu {
   display: none;
   position: absolute;
+  /* other styles */
+  padding: 20px;
+  border-radius: 5px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+  font-size: 18px;
+  line-height: 30px;
+  gap: 10px;
+  width: 140px;
+  background-color: whitesmoke;
+}
+.programs:hover .submenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  visibility: visible;
+  opacity: 1;
 }
 .programs:hover .cosubmenu {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5px;
-  border-radius: 5px;
-  margin-top: 5px;
-  line-height: 30px;
-  text-align: center;
-  width: 100px;
-  background-color: whitesmoke;
+  visibility: visible;
+  opacity: 1;
 }
+.fachek {
+  width: 11px;
+  margin-bottom: -7px;
+  margin-left: 3px;
+}
+
 .logo {
   margin-left: 40px;
   height: 50px;
@@ -58,8 +79,7 @@
   align-items: center;
   gap: 20px;
   margin-right: 40px;
-}
-.links {
+
   color: black;
   font-size: 20px;
   font-weight: bold;

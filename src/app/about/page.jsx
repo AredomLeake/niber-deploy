@@ -22,18 +22,18 @@ const About = () => {
             of war on societies, leaving behind shattered infrastructure,
             displaced populations, and fractured economies. Our mission is to
             bring hope, stability, and progress to these regions by implementing
-            innovative and impactful initiatives. 
+            innovative and impactful initiatives.
             <br />
-            <br /> Economic Empowerment:We strongly believe that economic stability is
-            the cornerstone of rebuilding communities. Through our various
-            programs and projects, we strive to create sustainable livelihood
-            opportunities for individuals affected by war. By providing
-            vocational training, microfinance support, and entrepreneurship
-            development, we aim to empower individuals to become self-reliant
-            and contribute to the economic growth of their communities.
-            Political Engagement: We recognize the significance of political
-            stability and good governance in post-conflict regions. Our
-            organization works closely with local governments, community
+            <br /> Economic Empowerment:We strongly believe that economic
+            stability is the cornerstone of rebuilding communities. Through our
+            various programs and projects, we strive to create sustainable
+            livelihood opportunities for individuals affected by war. By
+            providing vocational training, microfinance support, and
+            entrepreneurship development, we aim to empower individuals to
+            become self-reliant and contribute to the economic growth of their
+            communities. Political Engagement: We recognize the significance of
+            political stability and good governance in post-conflict regions.
+            Our organization works closely with local governments, community
             leaders, and civil society organizations to promote inclusive and
             transparent governance systems. Through advocacy, capacity-building
             workshops, and civic engagement initiatives, we aim to foster a
@@ -44,13 +44,7 @@ const About = () => {
           </p>
         </div>
         <div className={styles.imagecon}>
-          <img
-            src="/discus1.png"
-            width={1400}
-            height={600}
-            alt=""
-            className={styles.image}
-          />
+          <img src="/discus1.png" alt="" className={styles.image} />
         </div>
         <div className={styles.item}>
           <h1 className={styles.title}>What We Do?</h1>
@@ -84,13 +78,7 @@ const About = () => {
           </p>
         </div>
         <div className={styles.imagecon}>
-          <img
-            src="/human1.png"
-            width={1400}
-            height={600}
-            alt=""
-            className={styles.image}
-          />
+          <img src="/human1.png" alt="" className={styles.image} />
         </div>
       </div>
 

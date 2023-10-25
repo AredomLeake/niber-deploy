@@ -193,9 +193,10 @@ export default function Home() {
               <p>
                 School renovation is an important process that involves
                 improving the condition and functionality of existing
-                educational facilities. Renovations can address various aspects
+                educational facilities.
+                {/* Renovations can address various aspects
                 of a school, such as its infrastructure, classrooms, libraries,
-                laboratories, playgrounds, and other areas.
+                laboratories, playgrounds, and other areas.  */}
               </p>
               <button className={styles.button}>
                 {" "}

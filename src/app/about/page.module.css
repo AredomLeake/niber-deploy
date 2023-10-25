@@ -14,7 +14,6 @@
   object-fit: cover;
   display: flex;
   justify-content: flex-start;
-
   background-size: cover;
   background-position: center;
   color: white;
@@ -40,8 +39,8 @@
 }
 
 .desc {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 21px;
+  line-height: 34px;
   font-weight: 300;
   font-family: "Montserrat", "Roboto";
   text-align: justify;
@@ -60,9 +59,13 @@
   margin: 20px;
 }
 .imagecon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex: 1;
+  height: 200px;
+}
+.image {
+  object-fit: cover;
+  height: 50%;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
@@ -75,17 +78,7 @@
     height: 200px;
     position: relative;
   }
-  .imgText {
-    position: absolute;
-    bottom: 10px;
-    left: 2px;
-    /* background-color: #53c28b; */
-    background-color: whitesmoke;
-    padding: 7px;
-    color: brown;
-    width: 480px;
-    bottom: 0;
-  }
+
   .imgTitle {
     font-size: 25px;
     margin-bottom: 7px;

@@ -5,6 +5,7 @@ import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 import { signOut, useSession } from "next-auth/react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { useState } from "react";
+import { FaChevronDown } from "react-icons/fa";
 
 const links = [
   {
@@ -78,14 +79,37 @@ const Navbar = () => {
 
           <div className={styles.mobileLinks}>
             {links.map((link) => (
-              <Link
-                key={link.id}
-                href={link.url}
-                className={styles.mobileLink}
-                onClick={() => setIsOpen(false)}
-              >
-                {link.title}
-              </Link>
+              <div key={link.id}>
+                {link.title === "Programs" ? (
+                  <div className={styles.programs}>
+                    <Link href={link.url}>{link.title}</Link>
+                    <FaChevronDown className={styles.fachek} />
+                    <div className={styles.submenu}>
+                      <Link href="/programs/humanitarian">Humanitarian</Link>
+                      <Link href="/programs/developmental">Developmental</Link>
+                    </div>
+                  </div>
+                ) : link.title === "Contribution" ? (
+                  <div className={styles.programs}>
+                    <Link href={link.url}>{link.title}</Link>
+                    <FaChevronDown className={styles.fachek} />
+                    <div className={styles.cosubmenu}>
+                      <Link href="/donate">Donation</Link>
+                      <Link href="/Contribution/expertise">Expertise</Link>
+                      <Link href="/Contribution/inkind">Inkind</Link>
+                    </div>
+                  </div>
+                ) : (
+                  <Link
+                    key={link.id}
+                    href={link.url}
+                    className={styles.mobileLink}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {link.title}
+                  </Link>
+                )}
+              </div>
             ))}
           </div>
         </div>
@@ -97,7 +121,7 @@ const Navbar = () => {
             {link.title === "Programs" ? (
               <div className={styles.programs}>
                 <Link href={link.url}>{link.title}</Link>
-
+                <FaChevronDown className={styles.fachek} />
                 <div className={styles.submenu}>
                   <Link href="/programs/humanitarian">Humanitarian</Link>
                   <Link href="/programs/developmental">Developmental</Link>
@@ -106,7 +130,7 @@ const Navbar = () => {
             ) : link.title === "Contribution" ? (
               <div className={styles.programs}>
                 <Link href={link.url}>{link.title}</Link>
-
+                <FaChevronDown className={styles.fachek} />
                 <div className={styles.cosubmenu}>
                   <Link href="/donate">Donation</Link>
                   <Link href="/Contribution/expertise">Expertise</Link>

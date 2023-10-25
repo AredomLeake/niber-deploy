@@ -59,7 +59,10 @@ export default function Donate() {
           Swift Code:CBETETAA
           <br />
           <br />
-          please forward your reciept to Niber whatsapp group.
+          Please forward your reciept to Niber whatsapp group
+          <a href="https://t.me/Niber_Foundation" className={styles.link}>
+            Link
+          </a>
         </h3>
       </form>
     </div>
