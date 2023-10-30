@@ -74,7 +74,9 @@
   }
 
   .descontainer p {
-    font-size: 15px;
-    text-align: justify;
+    text-align: center;
+    font-size: 18px;
+
+    line-height: 27px;
   }
 }
