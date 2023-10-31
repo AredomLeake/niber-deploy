@@ -8,11 +8,6 @@ import { useRouter } from "next/navigation";
 
 /* eslint-disable react/no-unescaped-entities */
 
-export const metadata = {
-  title: "Contact Niber Foundation ",
-  description: "This is Contact Page",
-};
-
 const Contact = () => {
   const [error, setError] = useState(null);
 
