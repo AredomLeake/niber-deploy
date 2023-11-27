@@ -1,3 +1,8 @@
+.maincontainer {
+  width: 95%;
+  margin: auto;
+  margin-top: 80px;
+}
 .container {
   display: flex;
   align-items: center;
@@ -5,7 +10,7 @@
   margin-bottom: 50px;
 }
 
-.image{
+.image {
   object-fit: cover;
 }
 
@@ -13,11 +18,11 @@
   color: rgb(226, 183, 141);
 }
 
-.title{
+.title {
   margin-bottom: 10px;
 }
 
-.desc{
+.desc {
   font-size: 18px;
   color: #999;
 }

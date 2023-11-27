@@ -1,6 +1,6 @@
-import User from "@/models/User";
+import Subscriber from "@/models/Subscriber";
 import connect from "@/utils/db";
-
+// import bcrypt from "bcryptjs";
 import { NextResponse } from "next/server";
 
 export const POST = async (request) => {
@@ -8,15 +8,18 @@ export const POST = async (request) => {
 
   await connect();
 
-  const newUser = new User({
+  //   const hashedPassword = await bcrypt.hash(password, 5);
+
+  const newSubscriber = new Subscriber({
     name,
     email,
     message,
+    // password: hashedPassword,
   });
 
   try {
-    await newUser.save();
-    return new NextResponse("message sent successfully", {
+    await newSubscriber.save();
+    return new NextResponse("subscription completed", {
       status: 201,
     });
   } catch (err) {

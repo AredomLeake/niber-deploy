@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+#shortcuted from scrripts
+//  "build": "next build",
+     "export": "next build && next export",
 # dependencies
 /node_modules
 /.pnp

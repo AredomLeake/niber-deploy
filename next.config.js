@@ -11,7 +11,7 @@ const nextConfig = {
   //     "react/no-unescaped-entities": "off",
   //   },
   // },
-  output: "export",
+  // output: "export",
 };
 
 module.exports = nextConfig;

@@ -31,7 +31,7 @@ const links = [
   {
     id: 5,
     title: "Blog",
-    url: "/",
+    url: "/blog",
   },
   {
     id: 6,
@@ -60,7 +60,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logolink}>
-        <img img src="/niber-logo.png" alt="" className={styles.logo} />
+        <img src="/niber-logo.png" alt="" className={styles.logo} />
       </Link>
 
       {/* navigation */}

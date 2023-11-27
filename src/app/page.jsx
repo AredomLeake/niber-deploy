@@ -64,7 +64,6 @@ export default function Home() {
         <div className={styles.impacon}>
           <div className={styles.moimpaco}>
             <div className={styles.moimpasubco}>
-              {" "}
               <FaShoppingBasket div className={styles.dosign} />
             </div>
           </div>
@@ -78,7 +77,6 @@ export default function Home() {
         <div className={styles.impacon}>
           <div className={styles.moimpaco}>
             <div className={styles.moimpasubco}>
-              {" "}
               <FaDollarSign div className={styles.dosign} />
             </div>
           </div>
@@ -93,7 +91,6 @@ export default function Home() {
         <div className={styles.impacon}>
           <div className={styles.moimpaco}>
             <div className={styles.moimpasubco}>
-              {" "}
               <FaDollarSign div className={styles.dosign} />
             </div>
           </div>
@@ -129,7 +126,6 @@ export default function Home() {
                 profitability.
               </p>
               <button className={styles.button}>
-                {" "}
                 <Link href="/programs/developmental">Learn More</Link>
               </button>
             </div>
@@ -143,7 +139,6 @@ export default function Home() {
                 and foster sustainable development.
               </p>
               <button className={styles.button}>
-                {" "}
                 <Link href="/programs/developmental">Learn More</Link>
               </button>
             </div>
@@ -158,7 +153,6 @@ export default function Home() {
                 effects of water on domestic vegetation.
               </p>
               <button className={styles.button}>
-                {" "}
                 <Link href="/programs/developmental">Learn More</Link>
               </button>
             </div>
@@ -168,18 +162,16 @@ export default function Home() {
       <div className={styles.sec4}>
         <div className={styles.programsco1}>
           <h2 className={styles.h2}>
-            {" "}
             Empowering Communities through Humanitarian Programs
           </h2>
           <p className={styles.para}>
             At Niber Foundation, our mission is to make a positive and lasting
             impact on the lives of vulnerable populations around the world.
             <span>
-              {" "}
               We believe in the power of collective action and strive to create
               a world where everyone has equal access to basic necessities,
               education, healthcare, and opportunities for a better future.
-            </span>{" "}
+            </span>
             Our humanitarian programs are designed to address critical issues
             such as poverty, hunger, healthcare disparities, education gaps, and
             environmental sustainability. Here are some key highlights of the
@@ -199,7 +191,6 @@ export default function Home() {
                 laboratories, playgrounds, and other areas.  */}
               </p>
               <button className={styles.button}>
-                {" "}
                 <Link href="/programs/humanitarian">Learn More</Link>
               </button>
             </div>

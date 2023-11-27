@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 //6.11.1
-mongoose.set("strictQuery", false);
 
 const connect = async () => {
   try {
@@ -11,6 +10,7 @@ const connect = async () => {
     });
     console.log("database connected");
   } catch (error) {
+    console.log("connection failed", error.message);
     throw new Error("Connection failed!");
   }
 };
